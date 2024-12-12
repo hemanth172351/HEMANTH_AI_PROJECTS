@@ -9,11 +9,13 @@ def div(a,b):
     print("I'm in div function")
     return a/b
 def is_even(num):
+    print("I'm in is_even function")
     if num%2 == 0:
         return True
     else:
         return False
 def is_odd(num):
+    print("I'm in is_odd function")
     if num%2 != 0:
         return True
     else:
