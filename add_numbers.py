@@ -14,6 +14,7 @@ def is_even(num):
     else:
         return False
 def is_odd(num):
+    print("I'm in is_odd function..")
     if num%2 != 0:
         return True
     else:
