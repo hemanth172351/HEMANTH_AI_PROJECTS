@@ -1,3 +1,4 @@
+import sys
 def add(a,b):
     print("I'm in add function")
     return a+b
@@ -19,3 +20,6 @@ def is_odd(num):
         return True
     else:
         return False
+
+arg_one = sys.argv[0]
+print(arg_one)
